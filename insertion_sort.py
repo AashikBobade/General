@@ -9,7 +9,7 @@ def Insertion_Sort(L):
         j = i
         while(j > 0 and L[j] < L[j - 1]):
             L[j], L[j-1] = L[j-1], L[j] #Moving L[i] to correct position in L
-            j = j - 1
+            j = j - 1 #Now L[:i+1] is sorted
     return L
 
 S = random.sample(range(100), 10)
