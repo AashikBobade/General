@@ -1,5 +1,5 @@
 def zero_mat(n):
-    '''This function generates a nXn matrix of values as zero'''
+    '''This function generates an n X n matrix of values as zero'''
     M = []
     for _ in range(n):
         row = []
