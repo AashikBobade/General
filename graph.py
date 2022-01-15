@@ -31,6 +31,7 @@ for i in range(1,11): #Using loop is so easy and clean
 
 for i in range(1,11): #Using loop reduces our code in number of lines
     G.add_edge(random.randint(1,10),random.randint(1,10))
+#this program may not return a complete graph, as we use random.randint to make an edge between two nodes.
 
 print(G.edges()) #Prints all edged in the graph
 
