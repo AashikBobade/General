@@ -13,7 +13,7 @@ def bin_search(l,x):
     if l[m]==x:
         return True
 
-S = random.sample(range(30), 10)
+S = random.sample(range(30), 10) #Creates a list of 10 elements of numbers between 0 to 30 at random.
 S.sort()
 print(S)
 print(bin_search(S,25)) #To check whether number 25 is present in our random number list passed as an argument, it may return true or may return false.
