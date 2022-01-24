@@ -1,3 +1,5 @@
+'''Accept a positive integer n as input and find the print the smallest integer that is divisible by all the integers in the range [1,n], endpoints inclusive.'''
+
 n = int(input())
 
 num = n
