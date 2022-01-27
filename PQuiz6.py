@@ -1,3 +1,8 @@
+'''Three rectangular matrices A, B and C are provided to you. 
+    You need to compute the product of these three matrices: A X B X C. 
+    Store the results of this matrix multiplication in a matrix named as prod. 
+    Each of these matrices is a list of lists.'''
+
 def multiply(A, B, C):
     temp =[]        
     for i in range(len(A)):
